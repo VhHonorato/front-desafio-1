@@ -96,6 +96,21 @@ header svg{
     background-color: darkcyan;
 }
 
+.listas{
+   list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 18px;
+    
+}
+
+.listas ul{
+    list-style: none;
+    
+}
+.listas ul .l1, .l2{
+    border-bottom: 2px dotted #eeeeee;
+}
 .publicidade{
     width: 340px;
     height: 857px;
