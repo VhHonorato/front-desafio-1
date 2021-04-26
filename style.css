@@ -2,8 +2,26 @@ header{
     width: 1440px;
     height: 70px;
     background-color: aqua;
+    display: flex;
+    
+
 }
 
+header ul{
+    margin-right: 169px;
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+
+}
+header ul .sobre, .contato{
+    margin-left: 48px;
+}
+
+header svg{
+    margin-left: 140.69px;
+}
 .content{
     width: 1160px;
     height: 2168px;
@@ -12,6 +30,7 @@ header{
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 56px;
+    box-sizing: border-box;
 
 }
 
