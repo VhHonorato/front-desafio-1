@@ -31,6 +31,7 @@ header svg{
     margin-right: 140px;
     margin-top: 56px;
     box-sizing: border-box;
+    margin-bottom: 64px;
 
 }
 
@@ -69,7 +70,21 @@ header svg{
     margin-top: 20px;
     margin-bottom: 25px;
     margin-left: 20px;
-    background-color: coral ;
+    margin-right: 20px;
+    background-color:#ffffff;
+    border-radius: 10px;    
+
+}
+.barrapesquisa input{
+    width: 340px;
+    height: 52px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #545454;
+    box-sizing: border-box;
+    
+    
 
 }
 
@@ -93,5 +108,5 @@ footer{
     width: 1440px;
     height: 70px;
     background-color: blue;
-    margin-top:64px ;
+   
 }
