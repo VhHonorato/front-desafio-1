@@ -1,0 +1,78 @@
+header{
+    width: 1440px;
+    height: 70px;
+    background-color: aqua;
+}
+
+.content{
+    width: 1160px;
+    height: 2168px;
+    background-color: bisque;
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 56px;
+
+}
+
+.meio{
+    width: 730px;
+    height: 2168px;
+    background-color: chartreuse;
+}
+
+.card1, .card2, .card3{
+    width: 730px;
+    height: 696px;
+    background-color: crimson;
+    border: 2px solid black;
+
+}
+
+.card1, .card2{
+    margin-bottom: 40px;
+}
+
+.esquerda{
+    width: 380px;
+    height: 1396px;
+    background-color: darkgreen;
+    margin-left: 50px;
+}
+
+.barrapesquisa, .categorias, .publicidade{
+    
+    margin-right: 20px;
+}
+.barrapesquisa{
+    width: 340px;
+    height: 52px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    background-color: coral ;
+
+}
+
+.categorias{
+    width: 349px;
+    height: 362px;
+    margin-bottom: 40px;
+    margin-left: 11px;
+    background-color: darkcyan;
+}
+
+.publicidade{
+    width: 340px;
+    height: 857px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: darkorchid;
+
+}
+footer{
+    width: 1440px;
+    height: 70px;
+    background-color: blue;
+    margin-top:64px ;
+}
