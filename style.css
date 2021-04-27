@@ -1,10 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+
 header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    color: #545454;
+
+   
+
+}
+.centro{
+    display: flex;
+    justify-content: space-between;
     width: 1440px;
     height: 70px;
-    background-color: aqua;
-    display: flex;
-    
-
 }
 
 header ul{
@@ -25,7 +43,7 @@ header svg{
 .content{
     width: 1160px;
     height: 2168px;
-    background-color: bisque;
+    background-color:  #E5E5E5;
     display: flex;
     margin-left: 140px;
     margin-right: 140px;
@@ -38,17 +56,32 @@ header svg{
 .meio{
     width: 730px;
     height: 2168px;
-    background-color: chartreuse;
+    background-color: #FFFFFF;
 }
 
 .card1, .card2, .card3{
     width: 730px;
     height: 696px;
-    background-color: crimson;
-    border: 2px solid black;
-
+    background-color:#FFFFFF;
+    
+   
 }
 
+.card1 h1, .card2 h1, .card3 h1{
+    padding: 24px 374px 8px 24px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.card1 h4, .card2 h4, .card3 h4{
+    color: #929292;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 524px 14px 24px;
+
+}
 .card1, .card2{
     margin-bottom: 40px;
 }
@@ -56,7 +89,7 @@ header svg{
 .esquerda{
     width: 380px;
     height: 1396px;
-    background-color: darkgreen;
+    background-color: #FFFFFF;
     margin-left: 50px;
 }
 
@@ -72,7 +105,6 @@ header svg{
     margin-left: 20px;
     margin-right: 20px;
     background-color:#ffffff;
-    border-radius: 10px;    
 
 }
 .barrapesquisa input{
@@ -80,9 +112,10 @@ header svg{
     height: 52px;
     border-radius: 10px;
     border: 0px;
-    padding: 0px 0px 0px 20px;
+    padding-left: 20px;
     color: #545454;
     box-sizing: border-box;
+    border: 1px solid #eeeeee;  
     
     
 
@@ -92,21 +125,31 @@ header svg{
     width: 349px;
     height: 362px;
     margin-bottom: 40px;
-    margin-left: 11px;
-    background-color: darkcyan;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    
+    
+}
+.categorias h2, .publicidade h2{
+    border-left: 2px solid #fe0078 ;
+    padding-left: 11px;
 }
 
 .listas{
    list-style: none;
-    display: flex;
-    justify-content: space-between;
     padding-right: 18px;
-    
+    margin-top: 18px;
 }
 
-.listas ul{
+.listas ul li{
     list-style: none;
-    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted #eeeeee;
+    padding-bottom: 16px;
+    margin-left: 13px;
+    padding-left: 0px;
+    padding-top: 16px;
 }
 .listas ul .l1, .l2{
     border-bottom: 2px dotted #eeeeee;
@@ -116,12 +159,32 @@ header svg{
     height: 857px;
     margin-left: 20px;
     margin-bottom: 40px;
-    background-color: darkorchid;
+    background-color: #FFFFFF;
 
+}
+.publicidade ul li{
+    border: 2px solid black;
+    width: 340px;
+    height: 240px;
+    margin-bottom: 32px;    
+    list-style: none;
+}
+
+.publicidade h2{
+    margin-bottom: 35px;
+    padding: 6px;
+}
+.publicidade ul :last-child{
+    margin-bottom: 0px;
 }
 footer{
     width: 1440px;
     height: 70px;
-    background-color: blue;
+    background-color: #222222;
+    
    
+}
+footer p{
+    color: #FFFFFF;
+    padding: 25px 550px 26px 509px; 
 }
