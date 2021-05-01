@@ -74,6 +74,7 @@ main{
 
 .card1, .card2, .card3{
     width: 730px;
+    min-height: 1152px;
     
     background-color:#FFFFFF;
     position: relative;
@@ -103,7 +104,10 @@ main{
     padding: 0px 24px 16px 24px;
 }
 .ullista{
-    padding: 0 173px 24px 48px;
+    padding: 0px 173px 24px 48px;
+}
+.ullista .inside li{
+    list-style-position: inside;
 }
 .paragrafo3{
     padding: 24px 24px 29px 24px;
@@ -118,14 +122,14 @@ main{
 .paragrafo6{
     padding: 0px 71px 46px 24px;
 }
-.card1 h4, .card2 h4, .card3 h4{
+.card1 h4{
     color: #929292;
     font-size: 12px;
     font-weight: 400;
     padding: 0px 524px 14px 24px;
 
 }
-.card1, .card2{
+.card1{
     margin-bottom: 40px;
 }
 
@@ -144,12 +148,65 @@ main{
 
 
 }
+
+.comentarios{
+    margin-top: 56px;
+}
+
+.form1{
+    display: flex;
+    
+}
+.label1, .label2{
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+
+ .input1 input, .input2 input{
+    display: flex;
+    width: 354px;
+    height: 42px;
+}
+
+.input1, .label1{
+    padding-right: 24px;
+}
+
+.label{
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.txtarea{
+    display: flex;
+    flex-direction: column;
+}
+
+.label textarea{
+    min-width: 732px;
+    min-height: 176px;
+}
+input:hover, textarea:hover{
+    cursor: pointer;
+    color: #fe0078;
+    border-color: #fe0078;
+}
+
+.botao{
+    margin-top: 48px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0px;
+}
+
 span{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: -14px;
-    margin-right: 24px;
+   
+    
 }
 
 .esquerda{
@@ -238,11 +295,17 @@ span{
 
 }
 .publicidade ul li{
-    border: 2px solid black;
     width: 340px;
     height: 240px;
     margin-bottom: 32px;    
     list-style: none;
+    background-color: #eeeeee;
+    font-size: 36px;
+    font-weight: 400;
+    color: #545454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .publicidade h2{
