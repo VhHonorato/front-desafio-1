@@ -72,9 +72,9 @@ main{
     background-color: #E5E5E5;
 }
 
-.card1, .card2, .card3{
+.contatos{
     width: 730px;
-    min-height: 1152px;
+    min-height: 998px;
     
     background-color:#FFFFFF;
     position: relative;
@@ -82,7 +82,7 @@ main{
    
 }
 
-.card1 h1, .card2 h1, .card3 h1{
+.contatos h1{
     padding: 24px 374px 8px 24px;
     display: inline-block;
     font-size: 24px;
@@ -90,7 +90,7 @@ main{
     
 }
 
- .paragrafo1 p, .paragrafo2 p, .paragrafo3 p, .paragrafo4 p, .paragrafo5 p, .paragrafo6 p, .ullista{
+ .paragrafo1 p{
     color: #545454;
     font-size: 14px;
     font-weight: 400;
@@ -100,37 +100,57 @@ main{
 .paragrafo1 p{
     padding: 24px 24px 16px 24px;
 }
-.paragrafo2 p{
-    padding: 0px 24px 16px 24px;
-}
-.ullista{
-    padding: 0px 173px 24px 48px;
-}
-.ullista .inside li{
-    list-style-position: inside;
-}
-.paragrafo3{
-    padding: 24px 24px 29px 24px;
-}
-.paragrafo4{
-    padding: 0px 107px 30px 24px;
-}
-.paragrafo5{
-    padding: 0px 71px 16px 24px;
-}
 
-.paragrafo6{
-    padding: 0px 71px 46px 24px;
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 24px;
 }
-.card1 h4{
-    color: #929292;
-    font-size: 12px;
-    font-weight: 400;
-    padding: 0px 524px 14px 24px;
+.informacoes ul{
+    padding-left: 24px;
+    margin-bottom: 13px;
+    font-size: 14px;
 
 }
-.card1{
+.informacoes h2{
+    padding-bottom: 26px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+
+}
+
+.endereco, .telefone, .suporte{
+    font-size: 14px;
+}
+.endereco ul, .telefone ul, .suporte ul{
+    font-size: 14px;
+}
+.endereco{
+    margin-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    list-style-image: url(./assets/localizacao.png);
+    
+}
+.telefone{
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    list-style-image: url(./assets/telefone.png);
+}
+.suporte{
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    list-style-image: url(./assets/headset.png);
+}
+
+.contatos{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .botao button:hover{
@@ -140,7 +160,7 @@ main{
 
 .botao button{
     border-radius: 20px;
-    width: 154px;
+    width: 93px;
     height: 43px;
     border: 1px solid #fe0078;
     background-color: #FFFFFF;
@@ -149,29 +169,54 @@ main{
 
 }
 
-.comentarios{
-    margin-top: 56px;
+.entreemcontato{
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    margin-left: 24px;
 }
 
-.form1{
+.entreemcontato h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+
+}
+.form1, .form2{
     display: flex;
     
 }
-.label1, .label2{
+.form1 .label1, .form1 .label2{
     display: flex;
     padding-top: 24px;
     padding-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 
- .input1 input, .input2 input{
+ .form1 .input1 input, .form1 .input2 input{
     display: flex;
-    width: 354px;
+    width: 329px;
     height: 42px;
+    margin-bottom: 24px;
+}
+.form2 .input1 input{
+    display: flex;
+    height: 42px;
+    width: 682px;
 }
 
-.input1, .label1{
+.form2 .label1{
+    display: flex;
+    padding-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form1 .input1, .form1 .label1{
     padding-right: 24px;
+    
 }
 
 .label{
@@ -185,19 +230,26 @@ main{
 }
 
 .label textarea{
-    min-width: 732px;
-    min-height: 176px;
+    font-size: 14px;
+    font-weight: 400;
 }
-.comentarios input:hover, textarea:hover{
+
+.txtarea textarea{
+    width: 682px;
+    height: 176px;
+}
+
+.entreemcontato input:hover, textarea:hover{
     cursor: pointer;
     color: #fe0078;
     border-color: #fe0078;
 }
 
 .botao{
-    margin-top: 48px;
+    margin-top: 32px;
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 24px;
     padding-right: 0px;
 }
 
